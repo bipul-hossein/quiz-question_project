@@ -1,4 +1,4 @@
-# WEB QUIZZES
+# WEB QUIZZES Repository
 
 Web Quizzes can help web developer to improve their web development Skills.
 
