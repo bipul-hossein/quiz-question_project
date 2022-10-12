@@ -3,19 +3,13 @@ import QnoOptions from '../QuestionOptions/QnoOptions';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
-
-
-
 const Queston = ({ everyQno }) => {
   const { question, options, correctAnswer } = everyQno;
   const regex = /(<([^>]+)>)/ig;
   const qno = question.replace(regex, '')
-
-
   const handleClick = (props) => {
     if (props === correctAnswer) {
       toast.success('Right Answer!!', { position: "top-center", theme: "colored" })
-
     }
     else {
       toast.warn('Wrong Answer!', { theme: "colored" })
