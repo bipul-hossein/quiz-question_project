@@ -1,14 +1,9 @@
 import React from 'react';
 import { useLoaderData } from 'react-router-dom';
-
 import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer } from 'recharts';
-
 
 const Statistics = () => {
     const { data } = useLoaderData()
-    console.log(data)
-
-
     return (
         <div className=''>
             <div>
@@ -26,10 +21,8 @@ const Statistics = () => {
                 <YAxis />
                 <Tooltip />
             </LineChart>
-            </ResponsiveContainer>
-           
+            </ResponsiveContainer>         
             </div>
-
         </div>
     );
 };
