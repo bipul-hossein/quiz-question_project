@@ -5,9 +5,9 @@ import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContai
 const Statistics = () => {
     const { data } = useLoaderData()
     return (
-        <div className=''>
+        <div className='pb-8 mt-24 mb-8 '>
             <div>
-            <h1 className='text-4xl py-8'>Quiz Quantity Charts</h1>
+            <h1 className='text-4xl py-10'>Quiz Quantity Charts</h1>
             <ResponsiveContainer width='95%' height={400}>
             <LineChart data={data} margin={{
                 top: 5,
