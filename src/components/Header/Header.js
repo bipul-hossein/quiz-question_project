@@ -1,4 +1,3 @@
-
 export const Header = () => {
   return (
     <div className="relative flex flex-col-reverse py-16 lg:pt-0 lg:flex-col lg:pb-0 bg-blue-50">
