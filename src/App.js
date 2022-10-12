@@ -32,7 +32,6 @@ function App() {
           return fetch(`https://openapi.programming-hero.com/api/quiz/${params.questionId}`)
         },
         element:<QnoCaDetails></QnoCaDetails>
-
       },
       {
         path:'/topics',
