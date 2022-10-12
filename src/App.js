@@ -1,4 +1,3 @@
-
 import './App.css';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import Main from './components/Main/Main';
@@ -50,8 +49,7 @@ function App() {
      {
         path:'/blog',
         element:<Blog></Blog>
-      },
-     
+      },   
       ]
     },
     {
@@ -65,5 +63,4 @@ function App() {
     </div>
   );
 }
-
 export default App;
